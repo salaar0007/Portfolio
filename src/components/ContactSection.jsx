@@ -26,8 +26,8 @@ const ContactSection = () => {
             id: 3,
             icon: FaLinkedin,
             title: 'LinkedIn',
-            value: 'linkedin.com/in/yourprofile',
-            link: 'https://linkedin.com/in/yourprofile'
+            value: 'linkedin',
+            link: 'https://www.linkedin.com/in/fakruddin-ansari-208b57301'
         },
         {
             id: 4,
