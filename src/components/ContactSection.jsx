@@ -44,9 +44,9 @@ const ContactSection = () => {
         setStatus({ message: '', type: '' });
 
         // YOUR EmailJS credentials
-        const SERVICE_ID = 'ZH9o1qQ_2Fc1L2xeR3Wg1';  // ← NEED THIS (from Email Services)
+        const SERVICE_ID = 'service_0ldgovg';  // ← NEED THIS (from Email Services)
         const TEMPLATE_ID = 'template_jok3x7t';             // ✓ Your Template ID
-        const PUBLIC_KEY = 'VgX3Z3mIVTgzc9bM6';             // ✓ Your Public Key
+        const PUBLIC_KEY = '3SDNB1LTH5yrRlV4Y';             // ✓ Your Public Key
 
         try {
             const result = await emailjs.sendForm(
