@@ -5,28 +5,21 @@ const Certificates = () => {
     const certifications =[
         {
             id:1,
-            title:'Lorem ipsum dolor sit amet consectetur adipisicing',
-            issuer:'Coursera / Meta',
-            date:'Dec 2023',
-            link:'#',
-            desc:' elit. Ipsum ipsa culpa a, facere explicabo non voluptatum ratione repellendus. Rerum, ull'
+            title:'Provisional Degree',
+            issuer:'BMCET COLLAGE',
+            date:'Dec 2026',
+            link:'https://drive.google.com/file/d/1B4VrEnjusMNfB08O9VMDaFLOn0zQTcXy/preview',
+            desc:'Provisional Degree certificate issued by BMCET College upon completion of B.Tech in Computer Engineering.'
         },
         {
             id:2,
-            title:'Lorem ipsum dolor sit amet consectetur adipisicing',
-            issuer:'Amazon Web Servieces',
-            date:'oct 2025',
-            link:'#',
-            desc:' elit. Ipsum ipsa culpa a, facere explicabo non voluptatum ratione repellendus. Rerum, ull'
-        },
-        {
-            id:3,
-            title:'Lorem ipsum dolor sit amet consectetur adipisicing',
-            issuer:'udemy',
-            date:'Dec 2026',
-            link:'#',
-            desc:' elit. Ipsum ipsa culpa a, facere explicabo non voluptatum ratione repellendus. Rerum, ull'
+            title:'8Th Sem Final Year Result',
+            issuer:'BMCET COLLAGE',
+            date:'oct 2026',
+            link:'https://drive.google.com/file/d/11zlv_fQnkYQ1ag6-DRhnO_VXL-_HZqVW/preview',
+            desc:'Final year 8th semester result from BMCET College showing academic performance.'
         }
+        
     ]
   return (
    <section className='text-white py-20' id='certificates'>

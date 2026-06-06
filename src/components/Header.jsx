@@ -29,7 +29,7 @@ const Header = () => {
             <div className='max-w-7xl mx-auto flex justify-between items-center'>
                 {/* logo */}
                 <div className='text-white text-3xl font-black cursor-pointer'>
-                    PORTFOLIO<span className='text-primary'>.</span>
+                    FAKRUDDIN ANSARI<span className='text-primary'>.</span>
                 </div>
                 
                 {/* Navigation Desktop */}

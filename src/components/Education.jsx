@@ -8,16 +8,16 @@ const Education = () => {
     const educationData = [{
         id: 1,
         degree: 'Bachelor of Computer Science',
-        institution: "State University of Technology",
-        duration: "2020-2022",
-        details: 'Lorem ipsum consectetur adipisicing '
+        institution: "Bhagwan Mahavir College of Engineering And Technology ",
+        duration: "2022-2026",
+        details: 'Computer Software Engineering'
     },
     {
         id: 2,
-        degree: 'Advanced Web Development',
-        institution: "Tech Institute of Design",
-        duration: "2023-2026",
-        details: 'Lorem ipsum consectetur adipisicing '
+        degree: 'Gujarat Board',
+        institution: "Sardar Patel Vidyalaya",
+        duration: "2021-2022",
+        details: '12TH Science PCM'
     }]
     
     return (

@@ -2,54 +2,32 @@ import React from 'react'
 import proj1 from '../assets/proj1.png';
 import proj2 from '../assets/proj2.png';
 import proj3 from '../assets/proj3.png';
-import proj4 from '../assets/proj4.png';
-import proj5 from '../assets/proj5.png';
-import proj6 from '../assets/proj6.png';
+
 
 const Projects = () => {
     const projects = [
         {
             id: 1,
             image: proj1,
-            title: 'E-Commerce Platform',
-            desc: 'Modern e-Commerce solution',
-            tech: ['React', 'Node.js', 'MongoDB']  // Fixed: made tech items separate
+            title: 'Pro-Shop',
+            desc: 'Modern e-Commerce Shop ',
+            tech: ['React', 'Node.js', 'MongoDB' , 'Express']  // Fixed: made tech items separate
         },
         {
             id: 2,
             image: proj2,
-            title: 'E-Commerce Platform',
-            desc: 'Modern e-Commerce solution',
-            tech: ['React', 'Node.js', 'MongoDB']
+            title: 'Travelon',
+            desc: 'Web desing Of Travele agency',
+            tech: ['React', 'Tailwind@css']
         },
         {
             id: 3,
             image: proj3,
-            title: 'E-Commerce Platform',
-            desc: 'Modern e-Commerce solution',
-            tech: ['React', 'Node.js', 'MongoDB']
+            title: 'Portfolio',
+            desc: 'Modern Desing Portfolio',
+            tech: ['React', 'Tailwind@css' ]
         },
-        {
-            id: 4,
-            image: proj4,
-            title: 'E-Commerce Platform',
-            desc: 'Modern e-Commerce solution',
-            tech: ['React', 'Node.js', 'MongoDB']
-        },
-        {
-            id: 5,
-            image: proj5,
-            title: 'E-Commerce Platform',
-            desc: 'Modern e-Commerce solution',
-            tech: ['React', 'Node.js', 'MongoDB']
-        },
-        {
-            id: 6,
-            image: proj6,
-            title: 'E-Commerce Platform',
-            desc: 'Modern e-Commerce solution',
-            tech: ['React', 'Node.js', 'MongoDB']
-        }
+       
     ]
     
     return (

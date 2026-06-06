@@ -11,50 +11,54 @@ const HeroSection = () => {
         <div className='h-24 w-2/3 bg-linear-to-br from-[#0c7fac] blur-2xl invisible opacity-40'></div>
         <div className='h-20 w-3/4 bg-linear-to-r from-[#289eff] opacity-40 blur-2xl'></div>
       </div>
-      
+
       <div className='w-full px-5 sm:px-8 md:px-12 lg:px-8 max-w-5xl lg:max-w-7xl mx-auto relative'>  {/* Fixed: max-auto -> mx-auto */}
         <div className='grid lg:grid-cols-2 gap-10 xl:gap-14 relative pt-24 lg:max-w-none max-w-2xl md:max-w-3xl mx-auto'>
-          
+
           {/* LEFT SIDE - Text Content */}
           <div className='lg:py-6'>
             <div className='text-center lg:text-left'>
               <h1 className='pt-4 text-white font-bold text-4xl md:text-5xl lg:text-6xl'>
                 Hi, I'm{' '}
                 <span className='text-transparent bg-clip-text bg-linear-to-r from-primary to-cyan-200'>
-                  Fakru
+                  Fakruddin
                 </span>
                 👋
               </h1>
             </div>
-            
+
             <p className='text-gray-300 pt-8 text-center lg:text-left mx-auto max-w-xl'>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              error quisquam ex placeat nobis culpa
-              perspiciatis. Tempore sunt quas, aut quis ab labore voluptates
+              Full Stack Web Developer | MERN Stack – B.Tech Computer Engineering student with a strong interest in web
+              development. Skilled in Full Stack and MERN Stack development. Currently advancing knowledge in Data Structures &
+              Algorithms. Passionate about creating responsive and user-friendly web applications. Strong communication, problem-
+              solving, and teamwork skills developed through teaching and project collaboration. Actively seeking opportunities to
+              gain real-world experience and grow as a developer
             </p>
-            
+
             <div className='flex items-center gap-3 pt-9 flex-col sm:flex-row sm:w-max lg:mx-0'>
               {/* Hire Me Button */}
-              <button className='px-6 md:px-7 py-3 rounded-full relative group w-full sm:w-max flex justify-center'>
+              <a href="https://wa.me/917861938988"
+                target="_blank"
+                rel="noopener noreferrer" className='px-6 md:px-7 py-3 rounded-full relative group w-full sm:w-max flex justify-center'>
                 <span className='absolute inset-0 rounded-full group-hover:scale-105 origin-center transition-all ease-in-out bg-primary border-2 border-transparent'>  {/* Fixed: rounded-3xl -> rounded-full */}
                 </span>
                 <span className='relative flex items-center justify-center text-white'>
                   Hire Me
                 </span>
-              </button>
-              
+              </a>
+
               {/* Download Resume Button */}
               <button className='border border-cyan-400 px-6 md:px-7 py-3 rounded-full relative group w-full sm:w-max flex justify-center'>
                 <div className='hover:scale-105 transition-all ease-in-out flex justify-center items-center relative'>
                   <Download size={18} className='text-primary' />
-                  <a href="/resume.pdf" download="resume.pdf" className='pl-2 text-primary'>
+                  <a href="/Fakruddin_Ansari_Resume__ (1).pdf"   download="Fakruddin_Ansari_Resume.pdf"className='pl-2 text-primary'>
                     Download Resume
                   </a>
                 </div>
               </button>
             </div>
           </div>
-          
+
           {/* RIGHT SIDE - Hero Image */}
           <div className='lg:h-full md:flex'>
             <div className='flex w-full h-96 min-h-96 lg:min-h-[none] lg:w-full lg:h-full items-center relative'>
@@ -72,7 +76,7 @@ const HeroSection = () => {
               </div>
             </div>
           </div>
-          
+
         </div>
       </div>
     </section>

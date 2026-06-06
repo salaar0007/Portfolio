@@ -21,19 +21,19 @@ const AboutSection = () => {
                         More <span className='text-primary'>About</span> Me
                     </h2>
                     <p className='text-gray-400 text-base lg:text-lg mb-10 leading-relaxed'>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Voluptas, earum libero. Voluptates magni voluptatum, cumque, nihil i
-                        <br /><br />
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Voluptas, earum libero. Voluptates magni voluptatum, cumque, nihil i
+                            I am proficient in Hindi, English, and Gujarati,
+                             which allows me to communicate effectively with diverse teams and people around me. 
+                             <br /><br />
+                            I specialize in building responsive MERN Stack web applications and am actively advancing my knowledge in Data Structures & Algorithms.
+                             I thrive in collaborative environments and am eager to contribute my skills to meaningful real-world projects.
                     </p>
                     
                     {/* Stats Cards */}
                     <div className='grid grid-cols-3 gap-6 max-w-xl'>
                         <div className='text-center rounded-2xl bg-[#111a3e] border border-[#1f1641] p-5 transition-all duration-300 hover:border-primary/50 hover:scale-105 transform'>
-                            <h3 className='text-primary font-bold text-2xl md:text-3xl'>+200</h3>
+                            <h3 className='text-primary font-bold text-2xl md:text-3xl'>7.5+</h3>
                             <p className='text-xs text-gray-400 uppercase tracking-wider mt-0.5'>
-                                CLIENT
+                                CGPA
                             </p>
                         </div>
 
@@ -45,9 +45,9 @@ const AboutSection = () => {
                         </div>
 
                         <div className='text-center rounded-2xl bg-[#111a3e] border border-[#1f1641] p-5 transition-all duration-300 hover:border-primary/50 hover:scale-105 transform'>
-                            <h3 className='text-primary font-bold text-2xl md:text-3xl'>1</h3>
+                            <h3 className='text-primary font-bold text-2xl md:text-3xl'>7+</h3>
                             <p className='text-xs text-gray-400 uppercase tracking-wider mt-0.5'>
-                                YEARS
+                                Tech Skills
                             </p>
                         </div>
                     </div>

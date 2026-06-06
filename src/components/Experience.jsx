@@ -1,7 +1,8 @@
 import React, { useEffect } from 'react'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
-import { Briefcase, Building, Calendar, Cpu, Layers, Layout, Terminal } from 'lucide-react'
+import { Briefcase, Building, Calendar,} from 'lucide-react'
+import { SiNodedotjs, SiExpress, SiMongodb, SiMysql, SiReact, SiJavascript, SiHtml5 } from 'react-icons/si'
 
 const Experience = () => {
     useEffect(() => {
@@ -13,44 +14,57 @@ const Experience = () => {
 
     const Skills = [
         {
-            id: 1,
-            name: 'HTML & CSS',
-            width: "85%",
-            icon: Layout
-        },
-        {
-            id: 2,
-            name: 'React js',
-            width: "85%",
-            icon: Cpu
-        },
-        {
-            id: 3,
-            name: 'Javascript',
-            width: "85%",
-            icon: Terminal
-        },
-        {
-            id: 4,
-            name: 'Figma',
-            width: "85%",
-            icon: Layers
-        },
+    id: 1,
+    name: 'HTML/CSS',
+    width: "85%",
+    icon: SiHtml5
+  },
+  {
+    id: 2,
+    name: 'React js',
+    width: "70%",
+    icon: SiReact
+  },
+  {
+    id: 3,
+    name: 'Javascript',
+    width: "75%",
+    icon: SiJavascript
+  },
+  {
+    id: 4,
+    name: 'Node.js',
+    width: "85%",
+    icon: SiNodedotjs
+  },
+  {
+    id: 5,
+    name: 'Express.js',
+    width: "80%",
+    icon: SiExpress
+  },
+  {
+    id: 6,
+    name: 'MongoDB',
+    width: "80%",
+    icon: SiMongodb
+  },
+  {
+    id: 7,
+    name: 'SQL',
+    width: "85%",
+    icon: SiMysql
+  },
     ];
 
     const Experiences = [
         {
             id: 1,
-            role: 'Software Engineer',  // Fixed spelling
-            company: 'Microsoft',       // Fixed spelling
-            date: 'Mar 2024 - Sep 2026'
-        },
-        {
-            id: 2,
-            role: 'Front-End Developer',
-            company: 'Microsoft',       // Fixed spelling
-            date: 'Mar 2023 - Sep 2024'
+            role: 'Full Stack Developer',  // Fixed spelling
+            details: 'Self Learning',       // Fixed spelling
+            date: '2022 - 2026'
         }
+      
     ]
 
     return (
@@ -110,7 +124,7 @@ const Experience = () => {
                                             <div className='flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-4 mt-2 text-sm text-gray-400'>
                                                 <span className='flex items-center gap-1.5'>
                                                     <Building size={14} className='text-primary' />
-                                                    {exp.company}  {/* Fixed: changed 'compony' to 'company' */}
+                                                    {exp.details}  {/* Fixed: changed 'compony' to 'company' */}
                                                 </span>
                                                 <span className='flex items-center gap-1.5'>
                                                     <Calendar size={14} className='text-primary' />
